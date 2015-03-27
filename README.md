@@ -2,7 +2,6 @@
 
 ##Node.js 
 + [HomePage](http://www.nodejs.org/)
-+ [Node官网七牛镜像](http://nodejs-org.qiniudn.com/)
 + [Infoq深入浅出Node.js系列（进阶必读）](http://www.infoq.com/cn/articles/what-is-nodejs)
 + [Node.js中文文档](http://nodeapi.ucdok.com/#/api/)
 + [被误解的 Node.js](http://www.ibm.com/developerworks/cn/web/1201_wangqf_nodejs/)
@@ -14,16 +13,20 @@
 + [Node.js中exports与module.exports的区别](http://weizhifeng.net/node-js-exports-vs-module-exports.html)
 + [Node.js http 管道拒绝服务漏洞](http://cnodejs.org/topic/5293550ca6957a08096508fb)
 + [Node.js高级编程](http://yaohuiji.com/2013/01/08/pro-node-article-list/)
-
++ [Node.js代码风格指南](https://github.com/dead-horse/node-style-guide)
++ [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs)
++ [前端快速掌握 nodejs+mongodb+express+jade](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
 
 ##业界新闻
+
++ [NodeJS无所不能：细数10个令人惊讶的NodeJS开源项目](http://www.csdn.net/article/2013-12-17/2817827-10-surprising-Node.js-projects)
 + [看eBay如何评价他们的Node.js首次尝鲜](http://www.csdn.net/article/2013-05-20/2815364-how-ebays-first-node-js-application-were-built)
 + [程序员如何说服老板采用Node.js？](http://www.csdn.net/article/2012-05-03/2805296)
 + [百万级并发 Node.js也能行](http://www.csdn.net/article/2012-08-21/2808861)
 + [高性能Node.js：来自LinkedIn Mobile的10条优化建议](http://www.rockdai.com/?p=596)
 + [Kraken：改变PayPal开发文化的Node.js框架](http://www.csdn.net/article/2013-11-25/2817617-PayPal-Kraken-Nodejs-Framework)
 + [Groupon抛弃Rails，转向Node.js](http://www.iteye.com/news/28358) 
-
++ [PayPal为什么从Java迁移到Node.js，性能提高一倍，文件代码减少44%](https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/)
 
 ##经验分享
 
@@ -63,6 +66,11 @@
 ####基于Express的实时MVC框架Sails
 + [HomePage](https://github.com/balderdashy/sails)
 
+####Koa，下一代 Node.js web 框架
++ [HomePage](http://koajs.com)
++ [koa-guide](https://github.com/turingou/koa-guide)
++ [koa-middlewares](https://github.com/dead-horse/koa-middlewares) koa常用中间件集合
+
 ###Mysql 老牌关系型数据库
 
 + [HomePage](https://github.com/felixge/node-mysql)
@@ -90,6 +98,13 @@
 + [HomePage](https://github.com/kriskowal/q)
 + [在Node.js 中用 Q 实现Promise – Callbacks之外的另一种选择](http://www.ituring.com.cn/article/54547)
 
+####co
++ [HomePage](https://github.com/visionmedia/co)
++ [深入理解 Yield](http://www.html-js.com/article/column/77)
++ [co wiki](https://github.com/visionmedia/co/wiki)
+
+####[异步解决方案示例](https://github.com/dead-horse/callback_hell)
+
 ###Redis 内存键值数据库
 
 + [node_redis](https://github.com/mranney/node_redis)
@@ -116,6 +131,7 @@
 + [Nodejs跨平台轻量级图片编解码库【增加Jpeg质量调整】](http://cnodejs.org/topic/512b9fecdf9e9fcc580eb248)
 + [node-ccap模块生成captcha验证码](http://cnodejs.org/topic/50f90d8edf9e9fcc58a5ee0b)
 + [使用nodejs将html5 canvas base64编码图片保存为文件](http://cnodejs.org/topic/4f939c84407edba2143c12f7)
++ [web-camera，node + phantomjs 网页截图](https://github.com/dead-horse/web-camera)
 
 ###运维
 + [Node.js 异步异常的处理与domain模块解析](http://deadhorse.me/nodejs/2013/04/13/exception_and_domain.html)
@@ -130,9 +146,7 @@
 + [阿里出品的node.js调研与服务性能测试](http://www.tbdata.org/archives/1285)
 + [多核单服务器各种配置和业务压力下的node.js性能测试](http://snoopyxdy.blog.163.com/blog/static/6011744020117315192204/)
 + [巅峰对决：node.js和php性能测试](http://snoopyxdy.blog.163.com/blog/static/60117440201183101319257/)
-
-
-
++ [性能测评：Node.JS比Java EE快20%](http://ourjs.com/detail/52726d92031db63703000001)
 
 ##活跃开发者（排名不分先后）
 
@@ -142,7 +156,7 @@
 + [Python发烧友](http://fengmk2.github.io/)
 + [老雷](http://ucdok.com/)
 + [shiedman](http://cnodejs.org/user/shiedman)
-+ [jiyinyiyong](http://jiyinyiyong.github.io/blog/)
++ [jiyinyiyong](http://tiye.me)
 
 
 ##开源案例 收集Cnode的开源项目
@@ -159,6 +173,7 @@
 
 ###工具类
 
++ [cnpmjs.org 企业级 npm 解决方案](https://github.com/cnpm/cnpmjs.org)
 + [wechat微信中间件](https://github.com/node-webot/wechat)
 + [深度遍历目录/列出目录下所有文件](http://cnodejs.org/topic/51cb771973c638f3701acecd)
 + [lincell发布0.1.1版本，一行命令创建IDE](https://github.com/sumory/lincell)
@@ -172,7 +187,7 @@
 
 + [淘宝数据魔方](http://mofang.taobao.com/)
 + [淘宝指数](http://shu.taobao.com/)
-+ 淘宝时光机
++ [淘宝时光机](http://me.taobao.com)
 + [点点网](http://www.diandian.com/)
 + [花瓣网](http://huaban.com/)
 + [雪球网](http://xueqiu.com/)
